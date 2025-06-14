@@ -1,0 +1,36 @@
+
+#category-filter select {
+border: 1px solid #dddddd;
+}
+
+
+#category-filter {
+font-family: "Poppins", Sans-serif;
+}
+
+#filters-container .fst_dv, #filters-container .sec_dv,  #filters-container .third_dv{
+    width: 100%;
+    padding: 10px;
+}
+#filters-container .fst_dv .category-select, #filters-container .sec_dv .sold-select, #filters-container .third_dv .price-select {
+padding: 10px 10px;
+}
+
+#filters-container label {
+padding-bottom: 5px;
+}
+#filters-container .fst_dv , #filters-container .sec_dv, #filters-container .third_dv{
+border-top: 1px solid #dddddd;
+
+}
+#filters-container {
+    border-bottom: 1px solid #dddddd;
+}
+#filters-container .fa-chevron-up:before, #filters-container .fa-chevron-down:before {
+    float:right;
+}
+#filters-container .toggle-icon {
+padding-top: 4px;
+    width: 67%;
+    position: absolute;
+}
